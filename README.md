@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Limited Time Offer - Free 50GB Internet</title>
+    <!-- Google Fonts & FontAwesome Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -104,6 +105,7 @@
         input:focus, textarea:focus {
             border-color: var(--secondary);
             box-shadow: 0 0 15px rgba(0, 242, 254, 0.2);
+            outline: none;
         }
 
         /* --- GLOWING BUTTON --- */
@@ -158,11 +160,13 @@
 </head>
 <body>
 
+    <!-- HEADER SECTION -->
     <header>
         <div class="logo"><i class="fa-solid fa-bolt"></i> NetMax Promo</div>
         <div class="secure-badge"><i class="fa-solid fa-shield-halved"></i> Verified Reward</div>
     </header>
 
+    <!-- MAIN BODY -->
     <div class="container">
         
         <div class="promo-banner">
@@ -243,6 +247,7 @@
         </div>
     </div>
 
+    <!-- FOOTER SECTION -->
     <footer>
         <div class="footer-links">
             <a href="#">Privacy Policy</a> | 
@@ -297,4 +302,3 @@
     </script>
 </body>
 </html>
-
